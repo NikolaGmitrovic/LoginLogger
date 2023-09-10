@@ -10,5 +10,5 @@ Small Python script that logs every login session on Windows
 
 ***LOG FILE CONTENTS EXAMPLE***
 
-Logged in: 09-09-2023 20:03:04
+Logged in: 09-09-2023 20:03:04\
 Logged in: 10-09-2023 14:37:16
