@@ -16,6 +16,9 @@ Small Python script that logs every login session on Windows
 **Q**: I'm getting SmartScreen warning, is the batch file safe to use?\
 **A**: File is totally safe, you can check the code for yourself on GitHub. If you get a Smartscreen pop up, allow file to execute
 
+**Q**: Script not working anymore after changing its location\
+**A**: If you change the location of scripts you need to run login_logger.bat again. When you run it you will give a warning that says that task already exists, but in this stage task is broken and needs to be replaced. Just type "y" and press ENTER and that's it
+
 ***LOG FILE CONTENTS EXAMPLE***
 
 Logged in: 09-09-2023 20:03:04\
