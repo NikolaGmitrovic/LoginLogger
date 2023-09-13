@@ -16,7 +16,7 @@ Small Python script that logs every login session on Windows
 **Q**: Script isn't executing\
 **A**: Problem is commonly caused by batch script not creating automated task. To check, go into Task Scheduler and find LoginLogger task, if it isn't on the list, that means that batch didn't create the task succesfully. The solution in most cases is that you need to run batch as an administrator. It should automatically do that by popping up UAC (User Account Control) window, but if it doesn't just right click on login_logger.bat and run it as administrator.
 
-**Q**: Publisher not verified in UAC (User Account Control)
+**Q**: Publisher not verified in UAC (User Account Control)\
 **A**: In UAC you will see that the publisher is unknown, that is because in order to be verified (known) you have to pay for the licence (which I don't want to). Of course there are ways to bypass that, but they aren't particularly legal and I don't want to get into any unnecessary trouble
 
 **Q**: I'm getting SmartScreen warning, is the batch file safe to use?\
